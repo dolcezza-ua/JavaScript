@@ -12,7 +12,7 @@ function checkAge(age) {
        } else if (age  > age_3) {
            console.log("Keep calm and look Culture channel");
        } else {console.log("Technical work");}    
-}
+    }
 checkAge(17);
 checkAge(18);
 checkAge(61);
@@ -26,7 +26,7 @@ const age2_3 = 60;
 let number_type = typeof 1;
 function checkAge2(age2) {
     let age2_type = typeof age2;
-//console.log(age2, age2_type);
+    //console.log(age2, age2_type);
     if (age2_type != number_type){
         console.log(age2 + " - not a number !");
     }
@@ -36,9 +36,8 @@ function checkAge2(age2) {
            console.log("Welcome  !");
        } else if (age2  > age2_3) {
            console.log("Keep calm and look Culture channel");
-       } else {console.log("Technical work");}
-       
-}
+       } else {console.log("Technical work");}   
+    }
 checkAge2(16);
 checkAge2(19);
 checkAge2(62);
@@ -52,17 +51,16 @@ let age5;
 const age5_2 = 18; 
 const age5_3 = 60;
 function checkAge5(age5) {
-let age5_type = Number.isFinite(age5);
-//console.log(Number.isFinite(age5));
+    let age5_type = Number.isFinite(age5);
+    //console.log(Number.isFinite(age5));
     if(age5_type && age5 < age5_2) {
         console.log("You don’t have access cause your age is " + age5 + " It’s less then ");   
        } else if (age5_type && age5 >=  age5_2 && age5 <  age5_3) {
            console.log("Welcome  !");
        } else if (age5_type && age5  > age5_3) {
            console.log("Keep calm and look Culture channel");
-       } else {console.log(age5 + " - not a number !");}
-       
-}
+       } else {console.log(age5 + " - not a number !");}  
+    }
 checkAge5(16);
 checkAge5(19);
 checkAge5(62);
@@ -80,8 +78,8 @@ let numberType = typeof 1;
 function checkAge3(age3) {
     let change_age3 = + age3;
     let change_age3_type = typeof change_age3;
-//console.log(age3,typeof age3);
-//console.log(change_age3,change_age3_type);
+    //console.log(age3,typeof age3);
+    //console.log(change_age3,change_age3_type);
     if (change_age3_type != numberType){
         console.log(age3 + " - not a number !");
     }
@@ -92,8 +90,7 @@ function checkAge3(age3) {
        } else if (change_age3  > age3_3) {
            console.log("Keep calm and look Culture channel");
        } else {console.log(age3 + " - not a number !");}
-       
-}
+    }
 checkAge3('2');
 checkAge3(15);
 checkAge3("21");
@@ -105,16 +102,15 @@ let age7;
 function checkAge7(age7) {
     let change_age7 = + age7;
     let change_age7_type = Number.isFinite(change_age7);
-//console.log(age7,change_age7,change_age7_type);
+    //console.log(age7,change_age7,change_age7_type);
     if(change_age7_type && change_age7 < age3_2) {
         console.log("You don’t have access cause your age is " + change_age7 + " It’s less then ");   
        } else if (change_age7_type && change_age7 >=  age3_2 && change_age7 <  age3_3) {
            console.log("Welcome  !");
        } else if (change_age7_type && change_age7  > age3_3) {
            console.log("Keep calm and look Culture channel");
-       } else {console.log(age7 + " - not a number !");}
-       
-}
+       } else {console.log(age7 + " - not a number !");}   
+    }
 checkAge7('2');
 checkAge7(15);
 checkAge7("21");
@@ -126,7 +122,7 @@ checkAge7("Jasmine");
 const age4_2 = 18; 
 const age4_3 = 60;
 function checkAge4(age4) {
-       let age4_type = typeof age4;
+    let age4_type = typeof age4;
     if (age4 == 0) {
         console.log("invalid number entered");
     }
@@ -140,7 +136,7 @@ function checkAge4(age4) {
        } else if (age4  > age4_3) {
            console.log("Keep calm and look Culture channel");
        } else {console.log(" It is not a number !");}     
-}
+    }
 checkAge4(age4);
 
 // II way:
@@ -158,6 +154,6 @@ function checkAge6(age6) {
        } else if (age6_type && age6  > age4_3) {
            console.log("Keep calm and look Culture channel");
        } else {console.log(" It is not a number !");}     
-}
+    }
 checkAge4(age6);
 
