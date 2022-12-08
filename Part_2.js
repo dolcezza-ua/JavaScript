@@ -24,7 +24,6 @@ let age2;
 const age2_2 = 18; 
 const age2_3 = 60;
 let number_type = typeof 1;
-
 function checkAge2(age2) {
     let age2_type = typeof age2;
 //console.log(age2, age2_type);
@@ -48,15 +47,13 @@ checkAge2("Jasmine");
 checkAge2(" ");
 
 // II way:
+
 let age5;
 const age5_2 = 18; 
 const age5_3 = 60;
-
 function checkAge5(age5) {
-
 let age5_type = Number.isFinite(age5);
 //console.log(Number.isFinite(age5));
-
     if(age5_type && age5 < age5_2) {
         console.log("You don’t have access cause your age is " + age5 + " It’s less then ");   
        } else if (age5_type && age5 >=  age5_2 && age5 <  age5_3) {
@@ -80,11 +77,10 @@ let age3;
 const age3_2 = 18; 
 const age3_3 = 60;
 let numberType = typeof 1;
-
 function checkAge3(age3) {
     let change_age3 = + age3;
     let change_age3_type = typeof change_age3;
-console.log(age3,typeof age3);
+//console.log(age3,typeof age3);
 //console.log(change_age3,change_age3_type);
     if (change_age3_type != numberType){
         console.log(age3 + " - not a number !");
@@ -104,13 +100,12 @@ checkAge3("21");
 checkAge3("Jasmine");
 
 // II way:
+
 let age7;
 function checkAge7(age7) {
-
     let change_age7 = + age7;
     let change_age7_type = Number.isFinite(change_age7);
 //console.log(age7,change_age7,change_age7_type);
-
     if(change_age7_type && change_age7 < age3_2) {
         console.log("You don’t have access cause your age is " + change_age7 + " It’s less then ");   
        } else if (change_age7_type && change_age7 >=  age3_2 && change_age7 <  age3_3) {
@@ -149,10 +144,11 @@ function checkAge4(age4) {
 checkAge4(age4);
 
 // II way:
+
 let age6 = +prompt("Please enter your age");
 function checkAge6(age6) {
     let age6_type = Number.isFinite(age6);
-    console.log(age6_type);
+    //console.log(age6_type);
     if (age6 == 0) {
         console.log("invalid number entered");
     }  else if(age6_type && age6 < age4_2) {

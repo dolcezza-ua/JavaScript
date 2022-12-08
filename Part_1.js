@@ -72,6 +72,7 @@ let item_7 = String(item_6);
 let item_7_type = typeof item_7;
 
 // 25. Print the `item_7` data type to the console as  "item_7 == " item_7, "item_7_type == " item_7_type.
+
 console.log("item_7 = " + item_7 + " , " + "item_7_type = " + item_7_type); 
 
 // 26. Create a variable `age_1` and assign the value 10 to it.
@@ -91,6 +92,7 @@ let age_3 = 60;
 // 31. If `age_1` >= `age_2` and `age_1` < `age_3`, print `“Welcome!”`.
 // 32. If `age_1` > `age_3`, print `“Keep calm and look Culture channel”` to the console.
 // 33. Otherwise print `"Technical work"`.
+
 if (age_1 < age_2) {
  console.log("You don’t have access cause your age is " + age_1 + ". It’s less then ");   
 } else if (age_1 >=  age_2 && age_1 <  age_3) {
